@@ -4,12 +4,19 @@ A simple and elegant weather application that provides real-time weather informa
 🌟 *Features*
 
 1.Real-time Weather Data - Get current weather conditions for any city worldwide
+
 2.Temperature Display - Shows temperature in Celsius
+
 3.Detailed Weather Info - Displays weather description, humidity, and wind speed
+
 4.Clean UI Design - Modern glassmorphism design with a beautiful atmospheric background
+
 5.Responsive Layout - Works seamlessly on desktop and mobile devices
+
 6.Error Handling - User-friendly error messages for invalid cities or connection issues
+
 7.Keyboard Support - Press Enter to search for weather
+
 8.Dynamic Updates - Weather information updates dynamically without page reload
 
 🛠️ Technologies Used
@@ -30,8 +37,6 @@ git clone https://github.com/yourusername/weather-app.git
 Navigate to the project directory:
 cd weather-app
 Open index.html in your web browser or use a local server:
-# Using Python
-python -m http.server 8000
 
 # Using Node.js http-server
 npx http-server
@@ -41,8 +46,8 @@ npx http-server
 The app is ready to use! No additional configuration needed.
 
 📱 Usage
-Enter a city name in the search box (e.g., "London", "New York", "Tokyo")
-Click the Search button or press Enter
+1.Enter a city name in the search box (e.g., "London", "New York", "Tokyo")
+2.Click the Search button or press Enter
 View the current weather information:
 🌡️ Temperature - Current temperature in Celsius
 ☁️ Weather Condition - Current weather description
@@ -57,34 +62,6 @@ weather-app/
 ├── script.js           # JavaScript functionality and API integration
 └── README.md           # Project documentation
 
-🎨 Customization
-Change Background Image
-Modify the background property in style.css:
-background: url("your-image-url-here");
-Change Temperature Units
-To display Fahrenheit instead of Celsius, modify the API URL in script.js:
-const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=imperial`;
-And update the display from °C to °F in the displayWeather function.
-Modify Color Scheme
-Change colors in style.css:
-.search-box button {
-    background: #your-color-here;
-}
-Change Font
-Replace Poppins with your preferred Google Font in the HTML head and CSS.
-
-🔑 API Information
-This project uses the OpenWeatherMap API:
-API Documentation: OpenWeatherMap Docs
-Free Tier: 60 calls/minute, 1,000,000 calls/month
-Data Includes: Temperature, weather description, humidity, wind speed, and more
-Using Your Own API Key
-If you want to use your own API key:
-Sign up at OpenWeatherMap
-Get your free API key
-Replace the API key in script.js:
-const API_KEY = "your_api_key_here";
-
 🐛 Error Handling
 The app handles the following errors gracefully:
 Empty Input - "Please enter a city name"
@@ -97,12 +74,7 @@ Network Error - "Network error. Try again."
 ✅ Edge
 ✅ Opera
 
-🤝 Contributing
-Contributions are welcome! Here's how you can help:
-Fork the project
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
+)
 Open a Pull Request
 Ideas for Contributions
 Add 5-day weather forecast
